@@ -41,6 +41,6 @@ public class Log4j2DemoApplication implements ApplicationRunner {
                 for(int i=0;i<10;i++){ logger.info("日志行: Hello, Master{}",i); }
                 { logger.warn("日志行: Hello, Master WARNING"); }
                 { logger.error("日志行: Hello, Master ERROR"); }
-                return "Hello, Master";
+                return "Hello, Test branch";
         }
 }
