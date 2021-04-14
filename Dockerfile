@@ -4,4 +4,5 @@ ENV TZ=Asia/Shanghai
 COPY init.sh /init.sh
 COPY target/log-collection-demo-0.0.1-SNAPSHOT.jar /usr/local/log-collection-demo.jar
 EXPOSE 8080
-ENTRYPOINT ["/bin/sh", "/init.sh"]
+#ENTRYPOINT ["/bin/sh", "/init.sh"]
+CMD ["/bin/sh", "/init.sh"]
