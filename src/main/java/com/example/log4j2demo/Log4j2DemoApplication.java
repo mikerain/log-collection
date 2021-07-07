@@ -31,7 +31,7 @@ public class Log4j2DemoApplication implements ApplicationRunner {
         public String greet(){
         logger.info("Info******Master 日志******log");
         for(int i=0;i<10;i++){ logger.info("日志行: {}",i); }
-        return "Success! Master branch";
+        return "Success! Master branch for guangda bank";
     }
 
         @RequestMapping("/hello")
